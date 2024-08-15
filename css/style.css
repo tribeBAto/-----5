@@ -47,6 +47,22 @@ table {
     background-image: url("../image/Каркасkarkas.png");
 }
 .div2{
-  background-image: url("/image/Логотип.png");
+  display: flex;
   margin-left: 80px;
+  align-items: center;
+}
+.logo {
+  margin-top: 105px;
+}
+.navigation {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-left: 145px;
+}
+
+li {
+  font-weight: 700;
+  font-size: 25px;
 }
