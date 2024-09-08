@@ -1,16 +1,84 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -19,42 +87,65 @@ time, mark, audio, video {
   vertical-align: baseline;
   font-family: 'Montserrat';
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
   list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
   quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.header{
-    width: 100%;
-    height: 900px;
-    background-image: url("../image/Каркасkarkas.png");
+
+.header {
+  width: 100%;
+  height: 900px;
+  background-image: url("../image/Каркасkarkas.png");
 }
-.div2{
+
+.div2 {
   display: flex;
   margin-left: 80px;
   align-items: center;
 }
+
 .logo {
   margin-top: 105px;
 }
+
 .navigation {
   display: flex;
   width: 500px;
@@ -67,42 +158,49 @@ li {
   font-weight: 700;
   font-size: 25px;
 }
-.busket{
+
+.busket {
   margin-left: 148.5px;
   margin-top: 85px;
   width: 50px;
   height: 50px;
 }
-.burger{
+
+.burger {
   margin-left: 100px;
   margin-top: 45px;
   width: 642.69px;
   height: 600px;
 }
-.yandex{
+
+.yandex {
   font-size: 32px;
   white-space: nowrap;
   font-weight: 800;
-  
-  
+
+
 }
-.google{
+
+.google {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.hjk{
+
+.hjk {
   display: flex;
   flex-direction: column;
   padding-left: 130px;
 }
-.four{
-margin-top: 29px; 
-font-size: 16px; 
-font-weight: 400;
-  
+
+.four {
+  margin-top: 29px;
+  font-size: 16px;
+  font-weight: 400;
+
 }
-.button{
+
+.button {
   background-color: red;
   width: 142.26px;
   height: 60px;
@@ -112,56 +210,61 @@ font-weight: 400;
   font-weight: 400;
   margin-top: 29px;
 }
-.menu_text{
+
+.menu_text {
   text-align: center;
   font-weight: 500;
   font-size: 45px;
 
 }
-.menu_item{
+
+.menu_item {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.menu_img{
+
+.menu_img {
   width: 450px;
   height: 300px;
 }
-.menu_row_1{
+
+.menu_row_1 {
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content: space-around;
   margin-top: 38px;
 }
-.menu_item_text{
+
+.menu_item_text {
   font-size: 35px;
   font-weight: 500px;
 }
-.last2{
-  margin-top: 157px;
-  margin-left: 350px;
-}
-.last3{
-  margin-top: -15px;
-  margin-left: 750px;
-}
-.last4{
-  margin-left: 1150px;
-  margin-top: -15px;
-}
-.last5{
-  margin-top: 150px;
-  margin-left: 800px;
-}
-.last6{
-  margin-top: 70px;
-  margin-left: 780px;
-}
-.VK{
-  margin-left: 800px;
-  margin-top: 22px;
-}
-.last{
-  background: url("../image/karkas.svg")
 
+.last {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("../image/karkas.svg")
+}
+
+.documents {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  justify-content: space-between;
+  margin-top: 157px;
+}
+
+.footer_text {
+  margin-top: 45px;
+}
+.last6 {
+  margin-top: 24px;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+  margin-bottom: 80px;
 }
