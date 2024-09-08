@@ -66,3 +66,21 @@ li {
   font-weight: 700;
   font-size: 25px;
 }
+.busket{
+  margin-left: 148.5px;
+  margin-top: 85px;
+  width: 50px;
+  height: 50px;
+}
+.burger{
+  margin-left: 650px;
+  margin-top: 45px;
+  width: 642.69px;
+  height: 600px;
+}
+.yandex{
+  display: flex;
+  margin-left: 90px;
+  align-items: flex-start;
+  
+}
